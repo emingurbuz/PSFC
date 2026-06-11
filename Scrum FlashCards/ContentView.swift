@@ -2,23 +2,19 @@
 //  ContentView.swift
 //  Scrum FlashCards
 //
-//  Created by Emin Gürbüz on 11.06.2026.
+//  Created by Emin Gürbüz on 3.06.2026.
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        LevelPickerView()
     }
 }
 
 #Preview {
     ContentView()
+        .modelContainer(for: [CardProgress.self, LevelProgress.self], inMemory: true)
 }

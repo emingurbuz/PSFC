@@ -1,0 +1,16 @@
+# Xcode
+#
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+
+# JetBrains
+#
+.idea/
+
+# macOS
+#
+.DS_Store
