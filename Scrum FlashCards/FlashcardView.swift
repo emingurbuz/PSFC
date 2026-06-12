@@ -139,12 +139,16 @@ struct FlashcardView: View {
                         .blur(radius: 20)
                 }
 
-                // Blur background simulation - using a darker translucent background
+                // Blur background simulation
                 RoundedRectangle(cornerRadius: 40)
                     .fill(.ultraThinMaterial)
                     .overlay(
                         RoundedRectangle(cornerRadius: 40)
-                            .fill(card.level.accent.opacity(0.15))
+                            .fill(Color.black.opacity(0.2))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 40)
+                            .fill(card.level.accent.opacity(0.1))
                     )
                 
                 RoundedRectangle(cornerRadius: 40)
@@ -404,11 +408,11 @@ private struct OptionLabel: View {
         HStack(spacing: 14) {
             Text(letter)
                 .font(.caption.weight(.bold))
-                .foregroundStyle(state == .dimmed ? .white.opacity(0.3) : .white.opacity(0.6))
+                .foregroundStyle(state == .dimmed ? .white.opacity(0.4) : .white.opacity(0.9))
                 .frame(width: 26, height: 26)
                 .background(
                     Circle()
-                        .strokeBorder(state == .dimmed ? .white.opacity(0.15) : .white.opacity(0.3), lineWidth: 1)
+                        .strokeBorder(state == .dimmed ? .white.opacity(0.2) : .white.opacity(0.6), lineWidth: 1)
                 )
             
             Text(text)
@@ -430,28 +434,27 @@ private struct OptionLabel: View {
         .padding(.horizontal, 16)
         .padding(.vertical, 14)
         .background(
-            RoundedRectangle(cornerRadius: 16)
-                .fill(fill)
-        )
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(fill)
+                        .shadow(color: .black.opacity(state == .idle ? 0.2 : 0), radius: 4, y: 2)
+                )
         .foregroundStyle(foreground)
         .scaleEffect(state == .correct ? 1.02 : 1.0)
     }
 
     private var fill: Color {
         switch state {
-        case .idle: return .white.opacity(0.3)
-        case .correct: return Color.green.opacity(0.5)
-        case .incorrect: return Color.red.opacity(0.5)
-        case .dimmed: return .white.opacity(0.15)
+        case .idle: return Color.black.opacity(0.5)
+        case .correct: return Color.green.opacity(0.8)
+        case .incorrect: return Color.red.opacity(0.8)
+        case .dimmed: return Color.black.opacity(0.3)
         }
     }
 
     private var foreground: Color {
         switch state {
-        case .idle: return .white
-        case .correct: return .white
-        case .incorrect: return .white
-        case .dimmed: return .white.opacity(0.5)
+        case .idle, .correct, .incorrect: return .white
+        case .dimmed: return .white.opacity(0.4)
         }
     }
 }

@@ -36,9 +36,9 @@ enum Level: String, CaseIterable, Codable, Identifiable, Hashable {
 
     var accent: Color {
         switch self {
-        case .basic: return Color(red: 0.00, green: 0.59, blue: 0.65)   // Scrum Teal
-        case .intermediate: return Color(red: 0.00, green: 0.48, blue: 0.70) // Mid Blue
-        case .advanced: return Color(red: 0.00, green: 0.31, blue: 0.48)  // Scrum Dark Blue
+        case .basic: return Color(red: 0.00, green: 0.50, blue: 0.55)   // Slightly Darker Scrum Teal
+        case .intermediate: return Color(red: 0.00, green: 0.40, blue: 0.60) // Slightly Darker Mid Blue
+        case .advanced: return Color(red: 0.00, green: 0.25, blue: 0.40)  // Slightly Darker Scrum Dark Blue
         }
     }
 

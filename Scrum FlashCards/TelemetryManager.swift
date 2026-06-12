@@ -1,4 +1,5 @@
 import Foundation
+import TelemetryClient
 
 /// A centralized manager to handle analytics signals.
 class TelemetryManager {
@@ -8,7 +9,9 @@ class TelemetryManager {
     
     /// Initializes the Telemetry manager.
     static func initialize() {
-        print("[Telemetry] Placeholder initialization")
+        // REPLACE_WITH_YOUR_APP_ID: Enter your TelemetryDeck App ID here.
+        let config = TelemetryDeck.Config(appID: "17D35C06-29E5-48FB-8810-4EFF294E9520")
+        TelemetryDeck.initialize(config: config)
     }
     
     /// Sends a signal.
@@ -22,8 +25,11 @@ class TelemetryManager {
         updatedMetadata["isTestMode"] = "true"
         #endif
         
+        // Log to TelemetryDeck
+        TelemetryDeck.signal(signalName, parameters: updatedMetadata)
+        
         // Console prints for debugging
-        print("[Telemetry] Signal sent: \(signalName) | Metadata: \(updatedMetadata)")
+        print("[Telemetry] Signal: \(signalName) | Metadata: \(updatedMetadata)")
     }
     
     // MARK: - Helper Methods for "Intelligent" Metrics

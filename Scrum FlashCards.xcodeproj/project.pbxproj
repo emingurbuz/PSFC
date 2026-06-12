@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		709B2ADE2FDC9B6400818031 /* TelemetryClient in Frameworks */ = {isa = PBXBuildFile; productRef = 709B2ADD2FDC9B6400818031 /* TelemetryClient */; };
+		709B2AE02FDC9B6400818031 /* TelemetryDeck in Frameworks */ = {isa = PBXBuildFile; productRef = 709B2ADF2FDC9B6400818031 /* TelemetryDeck */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		709B2AA62FDB1F6000818031 /* Scrum FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrum FlashCards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709B2ADE2FDC9B6400818031 /* TelemetryClient in Frameworks */,
+				709B2AE02FDC9B6400818031 /* TelemetryDeck in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = "Scrum FlashCards";
 			packageProductDependencies = (
+				709B2ADD2FDC9B6400818031 /* TelemetryClient */,
+				709B2ADF2FDC9B6400818031 /* TelemetryDeck */,
 			);
 			productName = "Scrum FlashCards";
 			productReference = 709B2AA62FDB1F6000818031 /* Scrum FlashCards.app */;
@@ -94,6 +103,9 @@
 			);
 			mainGroup = 709B2A9D2FDB1F6000818031;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				709B2ADC2FDC9B6400818031 /* XCRemoteSwiftPackageReference "SwiftSDK" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 709B2AA72FDB1F6000818031 /* Products */;
 			projectDirPath = "";
@@ -332,6 +344,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		709B2ADC2FDC9B6400818031 /* XCRemoteSwiftPackageReference "SwiftSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TelemetryDeck/SwiftSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		709B2ADD2FDC9B6400818031 /* TelemetryClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 709B2ADC2FDC9B6400818031 /* XCRemoteSwiftPackageReference "SwiftSDK" */;
+			productName = TelemetryClient;
+		};
+		709B2ADF2FDC9B6400818031 /* TelemetryDeck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 709B2ADC2FDC9B6400818031 /* XCRemoteSwiftPackageReference "SwiftSDK" */;
+			productName = TelemetryDeck;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 709B2A9E2FDB1F6000818031 /* Project object */;
 }

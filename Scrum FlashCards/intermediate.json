@@ -1,42 +1,66 @@
 [
   {
     "id": "I01",
-    "prompt": "The Sprint Goal is created during",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Goal is created during",
     "suffix": ".",
     "answer": "Sprint Planning",
     "distractors": [
-      "the Daily Scrum",
-      "the Sprint Review",
+      "Daily Scrum",
+      "Sprint Review",
       "Backlog Refinement"
     ],
     "level": "intermediate"
   },
   {
     "id": "I02",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "Who owns the Sprint Backlog?",
-    "answer": "The Developers",
+    "answer": "Developers",
     "distractors": [
-      "The Product Owner",
-      "The Scrum Master",
-      "The whole organization"
+      "Product Owner",
+      "Scrum Master",
+      "Scrum Team"
     ],
     "level": "intermediate"
   },
   {
     "id": "I03",
-    "prompt": "The Definition of Done is created by",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Definition of Done is created by",
     "suffix": ".",
-    "answer": "the Scrum Team (or the organization)",
+    "answer": "Scrum Team (or the organization)",
     "distractors": [
-      "the Product Owner alone",
-      "the Scrum Master alone",
+      "Product Owner alone",
+      "Scrum Master alone",
       "the stakeholders"
     ],
     "level": "intermediate"
   },
   {
     "id": "I04",
-    "prompt": "The Scrum Team is generally no larger than",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "A Scrum Team is generally no larger than",
     "suffix": ".",
     "answer": "10 people",
     "distractors": [
@@ -48,6 +72,12 @@
   },
   {
     "id": "I05",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Sprint can only be cancelled by the",
     "suffix": ".",
     "answer": "Product Owner",
@@ -60,6 +90,12 @@
   },
   {
     "id": "I06",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "For a one-month Sprint, the Sprint Review is time-boxed to a maximum of",
     "suffix": ".",
     "answer": "four hours",
@@ -72,54 +108,84 @@
   },
   {
     "id": "I07",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "The Sprint Goal matters because it gives the Developers flexibility about",
     "suffix": ".",
-    "answer": "the exact work needed",
+    "answer": "the work needed",
     "distractors": [
-      "the Sprint length",
-      "the team size",
-      "the Product Owner's accountability"
+      "Sprint length",
+      "team size",
+      "Product Owner\u0027s accountability"
     ],
     "level": "intermediate"
   },
   {
     "id": "I08",
-    "prompt": "If Developers discover better work is needed to achieve the Sprint Goal, they should adapt",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "If Developers discover different work is needed to achieve the Sprint Goal, they should adapt",
     "suffix": ".",
-    "answer": "the Sprint Backlog",
+    "answer": "Sprint Backlog",
     "distractors": [
-      "the Product Goal",
-      "the Definition of Done",
-      "the Scrum Guide"
+      "Product Goal",
+      "Definition of Done",
+      "Scrum Guide"
     ],
     "level": "intermediate"
   },
   {
     "id": "I09",
-    "prompt": "The Product Owner can influence what is selected for a Sprint, but the final selection of Product Backlog items belongs to",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Owner can influence what is selected for a Sprint, but the final selection of Product Backlog items belongs to",
     "suffix": ".",
-    "answer": "the Developers",
+    "answer": "Developers",
     "distractors": [
       "stakeholders",
-      "the Scrum Master",
-      "the project manager"
+      "Scrum Master",
+      "manager"
     ],
     "level": "intermediate"
   },
   {
     "id": "I10",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Product Backlog item should not be presented at the Sprint Review if it does not meet",
     "suffix": ".",
-    "answer": "the Definition of Done",
+    "answer": "Definition of Done",
     "distractors": [
-      "the Product Goal",
-      "the stakeholder's preference",
-      "the original estimate"
+      "Product Goal",
+      "stakeholder\u0027s preference",
+      "original estimate"
     ],
     "level": "intermediate"
   },
   {
     "id": "I11",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Product Goal helps the Scrum Team avoid treating the Product Backlog as merely",
     "suffix": ".",
     "answer": "a task list",
@@ -132,11 +198,17 @@
   },
   {
     "id": "I12",
-    "prompt": "The Sprint Backlog is not fixed because the Developers update it as more is",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Backlog is not fixed because the Developers update it as more is",
     "suffix": ".",
     "answer": "learned",
     "distractors": [
-      "contracted",
+      "tested",
       "approved",
       "reported"
     ],
@@ -144,19 +216,31 @@
   },
   {
     "id": "I13",
-    "prompt": "The Daily Scrum is ineffective when it becomes primarily",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Daily Scrum is ineffective when it becomes primarily",
     "suffix": ".",
-    "answer": "a status report to the Scrum Master",
+    "answer": "a status report",
     "distractors": [
       "an inspection of progress",
       "a planning event for Developers",
-      "a chance to adapt the Sprint Backlog"
+      "a chance for adaptation"
     ],
     "level": "intermediate"
   },
   {
     "id": "I14",
-    "prompt": "The Sprint Review should involve stakeholders because Scrum depends on frequent",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Review should involve stakeholders (including customers) because Scrum depends on frequent",
     "suffix": ".",
     "answer": "inspection and adaptation",
     "distractors": [
@@ -168,9 +252,15 @@
   },
   {
     "id": "I15",
-    "prompt": "The Sprint Retrospective focuses on improving how the Scrum Team works, not on",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Retrospective focuses on improving how the Scrum Team works, not on",
     "suffix": ".",
-    "answer": "accepting Product Backlog items",
+    "answer": "market statistics",
     "distractors": [
       "quality",
       "effectiveness",
@@ -180,18 +270,30 @@
   },
   {
     "id": "I16",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "The Product Owner is accountable for Product Backlog ordering, but ordering should be influenced by",
     "suffix": ".",
     "answer": "value and learning",
     "distractors": [
-      "job title",
-      "individual preference",
-      "team seniority"
+      "requirements",
+      "user preferences",
+      "managers\u0027 expectations"
     ],
     "level": "intermediate"
   },
   {
     "id": "I17",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Master who only schedules meetings is missing the accountability for",
     "suffix": ".",
     "answer": "establishing Scrum",
@@ -204,259 +306,391 @@
   },
   {
     "id": "I18",
-    "prompt": "When stakeholders demand direct control over Developers' Sprint work, the Scrum Master should help preserve",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "When stakeholders demand direct control over Developers\u0027 Sprint work, the Scrum Master should help preserve",
     "suffix": ".",
     "answer": "self-management",
     "distractors": [
       "individual utilization",
-      "phase gates",
-      "task assignment"
+      "focus",
+      "task distribution"
     ],
     "level": "intermediate"
   },
   {
     "id": "I19",
-    "prompt": "When the Product Backlog lacks transparency, the Scrum Team cannot make good decisions about",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "When Product Backlog lacks transparency, Scrum Team cannot make good decisions about",
     "suffix": ".",
     "answer": "value and progress",
     "distractors": [
-      "office layout",
-      "job titles",
-      "tool branding"
+      "customer expectations",
+      "market changes",
+      "competition"
     ],
     "level": "intermediate"
   },
   {
     "id": "I20",
-    "prompt": "The Definition of Done supports empiricism by making completed work",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Definition of Done supports empiricism by making completed work",
     "suffix": ".",
     "answer": "transparent",
     "distractors": [
-      "larger",
-      "cheaper",
-      "optional"
+      "accepted",
+      "released",
+      "approved"
     ],
     "level": "intermediate"
   },
   {
     "id": "I21",
-    "prompt": "Refinement is useful because Product Backlog items may become clearer, smaller, and more",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Backlog Refinement is useful because Product Backlog items may become clearer, smaller, and more",
     "suffix": ".",
     "answer": "precise",
     "distractors": [
       "fixed",
-      "assigned",
-      "contractual"
+      "optional",
+      "simple"
     ],
     "level": "intermediate"
   },
   {
     "id": "I22",
-    "prompt": "The Scrum Guide does not prescribe estimation techniques because Scrum is intentionally",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Scrum Guide does not prescribe estimation techniques because Scrum is intentionally",
     "suffix": ".",
     "answer": "lightweight",
     "distractors": [
       "predictive",
       "sequential",
-      "tool-based"
+      "methodological"
     ],
     "level": "intermediate"
   },
   {
     "id": "I23",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Sprint cancellation is rare because Sprints are short enough to limit",
     "suffix": ".",
     "answer": "risk",
     "distractors": [
-      "collaboration",
-      "transparency",
+      "work load",
+      "inspection",
       "adaptation"
     ],
     "level": "intermediate"
   },
   {
     "id": "I24",
-    "prompt": "The Product Owner may cancel a Sprint when the Sprint Goal becomes",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Owner may cancel a Sprint when the Sprint Goal becomes",
     "suffix": ".",
     "answer": "obsolete",
     "distractors": [
       "difficult",
-      "estimated",
-      "technical"
+      "complex",
+      "too technical"
     ],
     "level": "intermediate"
   },
   {
     "id": "I25",
-    "prompt": "If the Scrum Team has multiple partially done items at the end of a Sprint, the likely transparency issue is around",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "If a Scrum Team has multiple partially done items at the end of a Sprint, the likely transparency issue is around",
     "suffix": ".",
-    "answer": "Done",
+    "answer": "Definition of Done",
     "distractors": [
-      "team name",
-      "release notes",
-      "stakeholder titles"
+      "manager\u0027s expectations",
+      "release requirements",
+      "stakeholders\u0027 expectations"
     ],
     "level": "intermediate"
   },
   {
     "id": "I26",
-    "prompt": "The Increment must be usable whether or not the Product Owner decides to",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "The Increment must be usable whether or not Product Owner decides to",
     "suffix": ".",
     "answer": "release it",
     "distractors": [
-      "estimate it",
-      "rename it",
+      "accept it",
+      "approve it",
       "assign it"
     ],
     "level": "intermediate"
   },
   {
     "id": "I27",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "Scrum does not require a release at the end of every Sprint, but it does require at least one usable",
     "suffix": ".",
     "answer": "Increment",
     "distractors": [
-      "project plan",
-      "phase report",
-      "handoff document"
+      "completion document",
+      "release document",
+      "development document"
     ],
     "level": "intermediate"
   },
   {
     "id": "I28",
-    "prompt": "The Product Owner's accountability includes ensuring the Product Backlog is transparent, visible, and",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Owner\u0027s accountability includes ensuring the Product Backlog is transparent, visible, and",
     "suffix": ".",
     "answer": "understood",
     "distractors": [
-      "frozen",
-      "assigned",
+      "approved by stakeholders",
+      "approved by managers",
       "approved by committee"
     ],
     "level": "intermediate"
   },
   {
     "id": "I29",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "Developers should participate in refinement because they need shared understanding of upcoming",
     "suffix": ".",
     "answer": "work",
     "distractors": [
-      "budgets",
-      "job grades",
-      "contracts"
+      "Sprint Retrospective",
+      "Sprint Planning",
+      "Sprint Review"
     ],
     "level": "intermediate"
   },
   {
     "id": "I30",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Product Backlog ordered only by stakeholder politics weakens focus on",
     "suffix": ".",
     "answer": "value",
     "distractors": [
-      "meetings",
-      "team size",
-      "time-boxes"
+      "managers",
+      "market",
+      "competition"
     ],
     "level": "intermediate"
   },
   {
     "id": "I31",
-    "prompt": "The Sprint Goal should be created before selecting every detailed task because it explains",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Goal should be created before selecting every detailed task because it explains",
     "suffix": ".",
     "answer": "why the Sprint is valuable",
     "distractors": [
-      "who reports to whom",
-      "which tool to use",
-      "how bonuses are paid"
+      "who will do what",
+      "what work is ahead",
+      "how tasks will be distributed"
     ],
     "level": "intermediate"
   },
   {
     "id": "I32",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "If a Daily Scrum repeatedly ignores the Sprint Goal, it becomes less effective as an inspect-and-adapt",
     "suffix": ".",
     "answer": "event",
     "distractors": [
-      "role",
-      "artifact",
-      "commitment"
+      "method",
+      "technique",
+      "action"
     ],
     "level": "intermediate"
   },
   {
     "id": "I33",
-    "prompt": "The Scrum Team should invite people to Sprint Planning when their advice helps with",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Scrum Team should invite people to Sprint Planning when their advice helps with",
     "suffix": ".",
     "answer": "the work",
     "distractors": [
       "formal approval",
-      "performance ranking",
+      "performance measurement",
       "management reporting"
     ],
     "level": "intermediate"
   },
   {
     "id": "I34",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Master serves the Product Owner by helping find techniques for effective",
     "suffix": ".",
     "answer": "Product Goal and Product Backlog management",
     "distractors": [
-      "line management",
-      "contract negotiation",
-      "salary planning"
+      "people management",
+      "trade-off negotiation",
+      "performance planning"
     ],
     "level": "intermediate"
   },
   {
     "id": "I35",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Master serves Developers by coaching them in self-management and",
     "suffix": ".",
     "answer": "cross-functionality",
     "distractors": [
       "task assignment",
-      "individual ranking",
-      "phase control"
+      "release management",
+      "phase development"
     ],
     "level": "intermediate"
   },
   {
     "id": "I36",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Master serves the organization by helping remove barriers between stakeholders and",
     "suffix": ".",
     "answer": "Scrum Teams",
     "distractors": [
-      "vendors",
-      "templates",
-      "departments only"
+      "managers",
+      "board of directors",
+      "departments"
     ],
     "level": "intermediate"
   },
   {
     "id": "I37",
-    "prompt": "The Scrum Team should treat the Sprint Review as an opportunity to inspect both product progress and",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Scrum Team should treat Sprint Review as an opportunity to inspect both product progress and",
     "suffix": ".",
     "answer": "market or stakeholder feedback",
     "distractors": [
       "individual performance",
-      "job grades",
-      "timesheet compliance"
+      "work approvals",
+      "budget compliance"
     ],
     "level": "intermediate"
   },
   {
     "id": "I38",
-    "prompt": "A Sprint Retrospective improvement can be added to the Sprint Backlog for the next",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "A Sprint Retrospective improvement can be added to Sprint Backlog for the next",
     "suffix": ".",
     "answer": "Sprint",
     "distractors": [
-      "Product Goal",
-      "organization chart",
-      "contract"
+      "day",
+      "month",
+      "week"
     ],
     "level": "intermediate"
   },
   {
     "id": "I39",
-    "prompt": "The Product Goal is fulfilled or abandoned before taking on the next",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "A Product Goal is fulfilled or abandoned before taking on the next",
     "suffix": ".",
     "answer": "Product Goal",
     "distractors": [
@@ -468,30 +702,48 @@
   },
   {
     "id": "I40",
-    "prompt": "If the Scrum Team cannot explain the Product Goal, the Product Backlog may lack",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "If Scrum Team cannot explain the Product Goal, Product Backlog may lack",
     "suffix": ".",
     "answer": "focus",
     "distractors": [
       "estimates",
-      "labels",
-      "a tool"
+      "measures",
+      "metrics"
     ],
     "level": "intermediate"
   },
   {
     "id": "I41",
-    "prompt": "The Sprint Backlog makes visible the work the Developers identify as necessary to meet the",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Backlog makes visible the work the Developers identify as necessary to meet the",
     "suffix": ".",
     "answer": "Sprint Goal",
     "distractors": [
-      "Product Vision",
-      "annual target",
-      "contract"
+      "product metrics",
+      "sprint target",
+      "task completion"
     ],
     "level": "intermediate"
   },
   {
     "id": "I42",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Sprint Goal that merely lists all selected items provides weak",
     "suffix": ".",
     "answer": "focus",
@@ -504,21 +756,33 @@
   },
   {
     "id": "I43",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "When a Product Backlog item is too large to finish in one Sprint, it needs more",
     "suffix": ".",
-    "answer": "refinement",
+    "answer": "Product Backlog Refinement",
     "distractors": [
-      "approval",
-      "handoff",
-      "governance"
+      "release plan",
+      "dividing",
+      "release"
     ],
     "level": "intermediate"
   },
   {
     "id": "I44",
-    "prompt": "A Scrum Team may use practices like user stories or story points, but these are not required by",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "A Scrum Team may use practices like story points for estimation, but these cannot remove",
     "suffix": ".",
-    "answer": "Scrum",
+    "answer": "complexity",
     "distractors": [
       "stakeholders",
       "software tools",
@@ -528,67 +792,103 @@
   },
   {
     "id": "I45",
-    "prompt": "Scrum Teams should not reduce quality to meet scope because quality does not",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Scrum Teams should not reduce quality to meet scope because that",
     "suffix": ".",
-    "answer": "decrease",
+    "answer": "decreases transparency",
     "distractors": [
-      "increase",
-      "exist",
-      "need transparency"
+      "decreases workload",
+      "removes complexity",
+      "increases transparency"
     ],
     "level": "intermediate"
   },
   {
     "id": "I46",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "If the Definition of Done is weak, Increments may appear complete while hiding",
     "suffix": ".",
     "answer": "undone work",
     "distractors": [
-      "stakeholders",
-      "Product Goals",
-      "time-boxes"
+      "functionalities",
+      "Sprint Goals",
+      "releases"
     ],
     "level": "intermediate"
   },
   {
     "id": "I47",
-    "prompt": "The Sprint Retrospective is the formal opportunity for the Scrum Team to inspect interactions, processes, tools, and",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Retrospective is the formal opportunity for the Scrum Team to inspect interactions, processes, tools, and",
     "suffix": ".",
     "answer": "Definition of Done",
     "distractors": [
       "market share",
       "customer contracts",
-      "portfolio budgets"
+      "product budgets"
     ],
     "level": "intermediate"
   },
   {
     "id": "I48",
-    "prompt": "The Daily Scrum is for Developers, but the Product Owner and Scrum Master may participate if they are also working as",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Daily Scrum is for Developers, but the Product Owner and Scrum Master may participate if they are also working as",
     "suffix": ".",
     "answer": "Developers",
     "distractors": [
       "stakeholders",
       "managers",
-      "auditors"
+      "observers"
     ],
     "level": "intermediate"
   },
   {
     "id": "I49",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Master should not solve every problem for the Developers because that can weaken",
     "suffix": ".",
     "answer": "self-management",
     "distractors": [
-      "estimation",
+      "trust",
       "product ownership",
-      "stakeholder attendance"
+      "Scrum Values"
     ],
     "level": "intermediate"
   },
   {
     "id": "I50",
-    "prompt": "The Product Owner is not a proxy committee because Scrum requires clear",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Owner is not a proxy committee because Scrum requires clear",
     "suffix": ".",
     "answer": "accountability",
     "distractors": [
@@ -600,19 +900,31 @@
   },
   {
     "id": "I51",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Team that waits for external approval before every adaptation is weakening",
     "suffix": ".",
     "answer": "empiricism",
     "distractors": [
       "forecasting",
       "documentation",
-      "tool usage"
+      "utilization"
     ],
     "level": "intermediate"
   },
   {
     "id": "I52",
-    "prompt": "The primary measure of progress in Scrum is usable, valuable",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "The primary measure of progress in Scrum is usable, Done ",
     "suffix": ".",
     "answer": "Increments",
     "distractors": [
@@ -624,19 +936,31 @@
   },
   {
     "id": "I53",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A burndown chart may help, but it is not a Scrum",
     "suffix": ".",
     "answer": "artifact",
     "distractors": [
       "event",
       "value",
-      "practice"
+      "component"
     ],
     "level": "intermediate"
   },
   {
     "id": "I54",
-    "prompt": "Backlog Refinement may happen during a Sprint, but it is not a formal Scrum",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Backlog Refinement is not a Scrum",
     "suffix": ".",
     "answer": "event",
     "distractors": [
@@ -648,19 +972,31 @@
   },
   {
     "id": "I55",
-    "prompt": "The Scrum Team should make progress transparent so inspection can lead to meaningful",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Scrum Team should make progress transparent so inspection can lead to meaningful",
     "suffix": ".",
     "answer": "adaptation",
     "distractors": [
       "control",
       "permission",
-      "handoff"
+      "observation"
     ],
     "level": "intermediate"
   },
   {
     "id": "I56",
-    "prompt": "If stakeholders only see work after months, Scrum's feedback advantage is",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "If stakeholders only see work after months, Scrum\u0027s feedback advantage is",
     "suffix": ".",
     "answer": "reduced",
     "distractors": [
@@ -672,67 +1008,103 @@
   },
   {
     "id": "I57",
-    "prompt": "A Product Backlog item is not truly Done if it only works on one Developer's machine and violates",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "A Product Backlog item is not truly Done if it only works on development environment and it violates",
     "suffix": ".",
-    "answer": "the Definition of Done",
+    "answer": "Definition of Done",
     "distractors": [
-      "the Product Goal",
-      "the Sprint length",
-      "the Daily Scrum"
+      "Product Goal",
+      "Sprint length",
+      "Daily Scrum"
     ],
     "level": "intermediate"
   },
   {
     "id": "I58",
-    "prompt": "Developers own technical decisions about how to turn selected work into a Done",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Developers own technical decisions about how to turn selected work into a",
     "suffix": ".",
-    "answer": "Increment",
+    "answer": "Done Increment",
     "distractors": [
-      "budget",
-      "contract",
-      "stakeholder map"
+      "development",
+      "release",
+      "Release Plan"
     ],
     "level": "intermediate"
   },
   {
     "id": "I59",
-    "prompt": "The Product Owner optimizes value; Developers create the Increment; the Scrum Master improves Scrum",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Owner optimizes value; Developers create the Increment; the Scrum Master improves Scrum\u0027s",
     "suffix": ".",
     "answer": "effectiveness",
     "distractors": [
-      "budget ownership",
+      "budget compliance",
       "legal compliance",
-      "salary bands"
+      "technical compliance"
     ],
     "level": "intermediate"
   },
   {
     "id": "I60",
-    "prompt": "If a Scrum Team has separate testing after the Sprint, transparency of the Increment is likely",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "If a Scrum Team has separate testing work after Sprint, transparency of the Increment is likely",
     "suffix": ".",
     "answer": "delayed",
     "distractors": [
       "improved",
-      "irrelevant",
+      "increased",
       "guaranteed"
     ],
     "level": "intermediate"
   },
   {
     "id": "I61",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A useful Sprint Goal should be coherent enough to guide decisions during the",
     "suffix": ".",
     "answer": "Sprint",
     "distractors": [
-      "release year",
-      "hiring cycle",
-      "annual budget"
+      "release plan",
+      "Sprint cycle",
+      "technical work"
     ],
     "level": "intermediate"
   },
   {
     "id": "I62",
-    "prompt": "The Sprint Review may result in changes to the",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Review may result in changes to the",
     "suffix": ".",
     "answer": "Product Backlog",
     "distractors": [
@@ -744,42 +1116,66 @@
   },
   {
     "id": "I63",
-    "prompt": "The Product Owner should not hide Product Backlog ordering because Scrum depends on",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Owner should not hide Product Backlog ordering because Scrum depends on",
     "suffix": ".",
     "answer": "transparency",
     "distractors": [
       "secrecy",
-      "handoffs",
+      "Done Increments",
       "utilization"
     ],
     "level": "intermediate"
   },
   {
     "id": "I64",
-    "prompt": "When the Scrum Team learns that selected work is unnecessary, it should collaborate with the Product Owner to adapt",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "When Developers learns that selected Product Backlog Item is unnecessary during a Sprint, it should collaborate with ",
     "suffix": ".",
-    "answer": "scope",
+    "answer": "Product Owner",
     "distractors": [
-      "Scrum values",
-      "the team name",
-      "the time-box"
+      "managers",
+      "stakeholders",
+      "Scrum Team"
     ],
     "level": "intermediate"
   },
   {
     "id": "I65",
-    "prompt": "The purpose of time-boxes is to create regularity and limit the cost of",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Time-boxes help Scrum Teams avoid ",
     "suffix": ".",
-    "answer": "inspection",
+    "answer": "endless discussions",
     "distractors": [
-      "self-management",
-      "quality",
-      "professionalism"
+      "focus",
+      "adaptation",
+      "Sprint Goals"
     ],
     "level": "intermediate"
   },
   {
     "id": "I66",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Team improves by inspecting real outcomes, not by following a plan without",
     "suffix": ".",
     "answer": "adaptation",
@@ -792,35 +1188,53 @@
   },
   {
     "id": "I67",
-    "prompt": "The Scrum Master should help managers understand that Scrum exposes problems rather than",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Scrum Master should help managers understand that Scrum exposes problems rather than",
     "suffix": ".",
     "answer": "hiding them",
     "distractors": [
-      "creating all of them",
-      "solving market fit alone",
-      "replacing leadership"
+      "removes them",
+      "solving market fit problem",
+      "replacing managers"
     ],
     "level": "intermediate"
   },
   {
     "id": "I68",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "When Scrum exposes organizational impediments, the right response is to make them transparent and work on",
     "suffix": ".",
     "answer": "removing them",
     "distractors": [
-      "blaming the team",
-      "adding hidden work",
+      "escalating them",
+      "avoiding them",
       "cancelling events"
     ],
     "level": "intermediate"
   },
   {
     "id": "I69",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "If a team has no Product Owner, Product Backlog management accountability is",
     "suffix": ".",
     "answer": "unclear",
     "distractors": [
-      "stronger",
+      "transferred",
       "automated",
       "unnecessary"
     ],
@@ -828,7 +1242,13 @@
   },
   {
     "id": "I70",
-    "prompt": "If the Product Owner cannot make decisions, value optimization is",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "If a Product Owner cannot make decisions, value optimization is",
     "suffix": ".",
     "answer": "weakened",
     "distractors": [
@@ -840,19 +1260,31 @@
   },
   {
     "id": "I71",
-    "prompt": "The Developers should not be forced to take more work than they believe they can complete to Done because they own",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "The decision about how much work enters a Sprint is made by",
     "suffix": ".",
-    "answer": "the Sprint plan",
+    "answer": "Developers",
     "distractors": [
-      "the Product Goal",
-      "stakeholder budgets",
-      "release marketing"
+      "managers",
+      "stakeholders",
+      "Product Owner"
     ],
     "level": "intermediate"
   },
   {
     "id": "I72",
-    "prompt": "The Sprint Goal is a commitment, not merely",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Goal is a commitment, not merely",
     "suffix": ".",
     "answer": "a label",
     "distractors": [
@@ -864,7 +1296,13 @@
   },
   {
     "id": "I73",
-    "prompt": "The Product Goal is a commitment, not merely",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Goal is a commitment, not merely",
     "suffix": ".",
     "answer": "a slogan",
     "distractors": [
@@ -876,7 +1314,13 @@
   },
   {
     "id": "I74",
-    "prompt": "The Definition of Done is a commitment, not merely",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Definition of Done is a commitment, not merely",
     "suffix": ".",
     "answer": "a checklist with no shared meaning",
     "distractors": [
@@ -888,55 +1332,85 @@
   },
   {
     "id": "I75",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "When multiple teams work on one product, separate Product Backlogs can damage",
     "suffix": ".",
     "answer": "transparency and focus",
     "distractors": [
-      "office layout",
-      "job grades",
+      "work standards",
+      "job descriptions",
       "individual skills"
     ],
     "level": "intermediate"
   },
   {
     "id": "I76",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "One product should have one Product Backlog to support one coherent",
     "suffix": ".",
     "answer": "ordering",
     "distractors": [
-      "timesheet",
-      "department",
-      "handoff"
+      "format",
+      "description",
+      "quality"
     ],
     "level": "intermediate"
   },
   {
     "id": "I77",
-    "prompt": "The Scrum Team should not treat stakeholders as outsiders to feedback because stakeholder input supports",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Scrum Team should not treat stakeholders as outsiders to feedback because stakeholder input supports",
     "suffix": ".",
     "answer": "adaptation",
     "distractors": [
-      "task assignment",
-      "line management",
+      "task approval",
+      "management agreements",
       "technical ownership"
     ],
     "level": "intermediate"
   },
   {
     "id": "I78",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Sprint Review without a Done Increment weakens the ability to inspect",
     "suffix": ".",
     "answer": "actual progress",
     "distractors": [
-      "individual performance",
-      "meeting attendance",
-      "budget approval"
+      "Product Backlog",
+      "Stakeholder attendance",
+      "budget spendings"
     ],
     "level": "intermediate"
   },
   {
     "id": "I79",
-    "prompt": "The Sprint Retrospective should lead to concrete improvements, not just",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Retrospective should lead to concrete improvements, not just",
     "suffix": ".",
     "answer": "complaints",
     "distractors": [
@@ -948,6 +1422,12 @@
   },
   {
     "id": "I80",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Team living the value of openness discusses problems instead of",
     "suffix": ".",
     "answer": "hiding them",
@@ -960,18 +1440,30 @@
   },
   {
     "id": "I81",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Team living the value of courage challenges practices that harm",
     "suffix": ".",
     "answer": "value",
     "distractors": [
-      "transparency",
-      "learning",
-      "professionalism"
+      "status quo",
+      "plan",
+      "predictability"
     ],
     "level": "intermediate"
   },
   {
     "id": "I82",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Team living the value of focus avoids scattering effort across unrelated",
     "suffix": ".",
     "answer": "goals",
@@ -984,217 +1476,325 @@
   },
   {
     "id": "I83",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Team living the value of respect treats members as capable and",
     "suffix": ".",
-    "answer": "independent",
+    "answer": "independent people",
     "distractors": [
-      "replaceable resources",
-      "subordinates",
-      "approval seekers"
+      "specialized experts",
+      "high performers",
+      "individual contributors"
     ],
     "level": "intermediate"
   },
   {
     "id": "I84",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Team living the value of commitment supports achieving shared",
     "suffix": ".",
     "answer": "goals",
     "distractors": [
-      "individual utilization",
-      "formal approvals",
-      "job titles"
+      "objectives",
+      "priorities",
+      "outcomes"
     ],
     "level": "intermediate"
   },
   {
     "id": "I85",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "Scrum does not guarantee success; it creates a framework for learning through",
     "suffix": ".",
     "answer": "empiricism",
     "distractors": [
       "prediction",
-      "certification",
-      "phase gates"
+      "planning",
+      "control"
     ],
     "level": "intermediate"
   },
   {
     "id": "I86",
-    "prompt": "If all decisions are made before work begins, the team is using Scrum events without embracing",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "If all decisions are made before work begins, Scrum is missing",
     "suffix": ".",
     "answer": "empiricism",
     "distractors": [
-      "documentation",
-      "estimation",
-      "roles"
-    ],
-    "level": "intermediate"
-  },
-  {
-    "id": "I87",
-    "prompt": "A Product Backlog is emergent because product needs change as more is",
-    "suffix": ".",
-    "answer": "learned",
-    "distractors": [
-      "estimated",
-      "assigned",
-      "approved"
-    ],
-    "level": "intermediate"
-  },
-  {
-    "id": "I88",
-    "prompt": "Ordering Product Backlog items should consider value, risk, dependencies, and",
-    "suffix": ".",
-    "answer": "learning",
-    "distractors": [
-      "job titles",
-      "office location",
-      "team seniority"
-    ],
-    "level": "intermediate"
-  },
-  {
-    "id": "I89",
-    "prompt": "A Scrum Team should make impediments visible because hidden impediments prevent",
-    "suffix": ".",
-    "answer": "adaptation",
-    "distractors": [
-      "meetings",
-      "titles",
-      "tools"
-    ],
-    "level": "intermediate"
-  },
-  {
-    "id": "I90",
-    "prompt": "A Scrum Master should coach the organization to see Scrum as a framework, not a complete",
-    "suffix": ".",
-    "answer": "methodology",
-    "distractors": [
-      "team",
-      "artifact",
-      "event"
-    ],
-    "level": "intermediate"
-  },
-  {
-    "id": "I91",
-    "prompt": "Adding a project manager to assign Developers' daily tasks conflicts with",
-    "suffix": ".",
-    "answer": "self-management",
-    "distractors": [
-      "time-boxing",
-      "stakeholder collaboration",
-      "Product Goal"
-    ],
-    "level": "intermediate"
-  },
-  {
-    "id": "I92",
-    "prompt": "A Sprint Review is not a gate because Scrum favors collaboration over",
-    "suffix": ".",
-    "answer": "approval handoffs",
-    "distractors": [
-      "transparency",
+      "forecasting",
       "inspection",
       "adaptation"
     ],
     "level": "intermediate"
   },
   {
-    "id": "I93",
-    "prompt": "A Sprint Planning that starts without an ordered Product Backlog is likely to struggle with",
+    "id": "I87",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Backlog changes as more is",
     "suffix": ".",
-    "answer": "focus",
+    "answer": "learned",
     "distractors": [
-      "time-boxing",
-      "team size",
-      "event names"
+      "estimated",
+      "forecasted",
+      "approved"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": "I88",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Product Backlog ordering aims to maximize",
+    "suffix": ".",
+    "answer": "value",
+    "distractors": [
+      "capacity",
+      "predictability",
+      "utilization"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": "I89",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Without resolving impediments, a Scrum Team cannot be",
+    "suffix": ".",
+    "answer": "effective",
+    "distractors": [
+      "efficient",
+      "fully utilized",
+      "predictable"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": "I90",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "A Scrum Master should coach the organization to understand Scrum as a framework, not a complete",
+    "suffix": ".",
+    "answer": "methodology",
+    "distractors": [
+      "recipe for success",
+      "formula",
+      "success technique"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": "I91",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "A Scrum Team becomes more self-managing by increasing",
+    "suffix": ".",
+    "answer": "cross-functionality",
+    "distractors": [
+      "specialization",
+      "utilization",
+      "supervision"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": "I92",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Stakeholders feedback during Sprint Review may change",
+    "suffix": ".",
+    "answer": "Product Backlog",
+    "distractors": [
+      "Sprint Goal",
+      "Definition of Done",
+      "Increment"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": "I93",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Planning event requires an ordered",
+    "suffix": ".",
+    "answer": "Product Backlog",
+    "distractors": [
+      "Sprint Goal",
+      "Definition of Done",
+      "Increment"
     ],
     "level": "intermediate"
   },
   {
     "id": "I94",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Scrum Team that cannot produce a Done Increment each Sprint should inspect its skills, dependencies, and",
     "suffix": ".",
     "answer": "Definition of Done",
     "distractors": [
-      "job titles",
-      "marketing copy",
-      "office plan"
+      "Sprint Goal",
+      "Product Goal",
+      "Sprint Backlog"
     ],
     "level": "intermediate"
   },
   {
     "id": "I95",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "The Definition of Done should become stronger as the Scrum Team improves its capability for",
     "suffix": ".",
     "answer": "quality",
     "distractors": [
       "approval",
-      "handoff",
-      "individual reporting"
+      "feedback",
+      "requirements"
     ],
     "level": "intermediate"
   },
   {
     "id": "I96",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "A Product Owner who maximizes output rather than outcome may weaken product",
     "suffix": ".",
     "answer": "value",
     "distractors": [
-      "events",
-      "roles",
-      "time-boxes"
+      "costs",
+      "perception",
+      "requirements"
     ],
     "level": "intermediate"
   },
   {
     "id": "I97",
-    "prompt": "The Sprint Goal helps stakeholders understand the purpose of the Sprint beyond a list of",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "Sprint Goal helps stakeholders understand the purpose of the Sprint beyond a list of",
     "suffix": ".",
-    "answer": "items",
+    "answer": "development items",
     "distractors": [
-      "values",
-      "artifacts",
-      "events"
+      "promises",
+      "requirements",
+      "options"
     ],
     "level": "intermediate"
   },
   {
     "id": "I98",
-    "prompt": "When the Sprint Goal is threatened, the Developers should make the issue transparent and adapt the",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "When Sprint Goal is threatened, Developers should make the issue transparent and adapt the",
     "suffix": ".",
-    "answer": "plan",
+    "answer": "Sprint Plan",
     "distractors": [
-      "Scrum Guide",
-      "Product Owner role",
-      "Sprint length automatically"
+      "Scrum Values",
+      "Product Owner",
+      "Sprint length"
     ],
     "level": "intermediate"
   },
   {
     "id": "I99",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
     "prompt": "If the Product Goal changes, the Product Backlog should be adapted to reflect the new",
     "suffix": ".",
-    "answer": "target",
+    "answer": "Product Goal",
     "distractors": [
-      "job title",
-      "tool",
-      "ceremony"
+      "market",
+      "requirements",
+      "conditions"
     ],
     "level": "intermediate"
   },
   {
     "id": "I100",
-    "prompt": "Professional Scrum requires using Scrum to reveal reality, then acting on that reality through",
+    "title": "",
+    "description": "",
+    "question": "",
+    "options": [],
+    "correctAnswer": "",
+    "category": "",
+    "prompt": "When inspection reveals undesirable variances, adjustment must be made as soon as possible to minimize further",
     "suffix": ".",
-    "answer": "adaptation",
+    "answer": "deviation",
     "distractors": [
-      "permission",
-      "prediction",
-      "documentation"
+      "forecasting",
+      "estimation",
+      "planning"
     ],
     "level": "intermediate"
   }
