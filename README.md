@@ -52,6 +52,7 @@ Scrum FlashCards provides an interactive way to learn Scrum through categorized 
 
 ## 📊 Features
 
+- **Release Notes:** Detailed history of changes can be found in [RELEASE_NOTES.md](./RELEASE_NOTES.md).
 - **Levels of Difficulty:** Basic, Intermediate, and Advanced sets of questions.
 - **Progress Tracking:** Tracks your "best percentage" and "last attempt" for each level.
 - **Mastery System:** Cards are considered "mastered" after 3 consecutive correct answers and are removed from the review pool.
