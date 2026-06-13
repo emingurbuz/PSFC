@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		709B2ADE2FDC9B6400818031 /* TelemetryClient in Frameworks */ = {isa = PBXBuildFile; productRef = 709B2ADD2FDC9B6400818031 /* TelemetryClient */; };
 		709B2AE02FDC9B6400818031 /* TelemetryDeck in Frameworks */ = {isa = PBXBuildFile; productRef = 709B2ADF2FDC9B6400818031 /* TelemetryDeck */; };
+		709B2AE32FDD710800818031 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 709B2AE22FDD710800818031 /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			files = (
 				709B2ADE2FDC9B6400818031 /* TelemetryClient in Frameworks */,
 				709B2AE02FDC9B6400818031 /* TelemetryDeck in Frameworks */,
+				709B2AE32FDD710800818031 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +76,7 @@
 			packageProductDependencies = (
 				709B2ADD2FDC9B6400818031 /* TelemetryClient */,
 				709B2ADF2FDC9B6400818031 /* TelemetryDeck */,
+				709B2AE22FDD710800818031 /* FirebaseAnalytics */,
 			);
 			productName = "Scrum FlashCards";
 			productReference = 709B2AA62FDB1F6000818031 /* Scrum FlashCards.app */;
@@ -105,6 +108,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				709B2ADC2FDC9B6400818031 /* XCRemoteSwiftPackageReference "SwiftSDK" */,
+				709B2AE12FDD710800818031 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 709B2AA72FDB1F6000818031 /* Products */;
@@ -268,6 +272,7 @@
 				DEVELOPMENT_TEAM = 697Y7JWGC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -278,6 +283,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
+				"MARKETING_VERSION[sdk=iphoneos*]" = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Scrum.Scrum-FlashCards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -300,6 +306,7 @@
 				DEVELOPMENT_TEAM = 697Y7JWGC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -354,6 +361,14 @@
 				minimumVersion = 2.14.1;
 			};
 		};
+		709B2AE12FDD710800818031 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.14.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -366,6 +381,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 709B2ADC2FDC9B6400818031 /* XCRemoteSwiftPackageReference "SwiftSDK" */;
 			productName = TelemetryDeck;
+		};
+		709B2AE22FDD710800818031 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 709B2AE12FDD710800818031 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
